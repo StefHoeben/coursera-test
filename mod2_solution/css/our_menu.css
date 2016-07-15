@@ -1,0 +1,98 @@
+/********** Base styles **********/
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size:1.75em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.menu {
+  border: 2px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  font-family: Helvetica;
+  background-color: #999999;
+}
+
+.menu_title {
+  font-weight: bold;
+  padding:2px 20px 2px 20px;
+  float:right;
+  clear: left;
+  font-size:1.25em;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.menu_title1 {
+  background-color:#d59898;
+}
+
+.menu_title2 {
+  background-color:#c14543;
+  color:white;
+}
+
+.menu_title3 {
+  background-color:#e5d198;
+}
+
+.menu_contents {
+  padding: 0 5px 0 5px;
+}
+
+
+/* Simple Responsive Framework. */
+
+.row {
+  width: 100%;
+}
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+  .mar-lg {
+    width: 96%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .mar-md {
+    width: 96%;
+  }
+  .mar-md-full {
+    /* mar-md is 96%, so 2% on each side. Because it's 50% of the full width,
+       that makes 1% on each size for the full width */
+    width: 98%;
+  }
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+    float: left;
+  }
+  .mar-sm {
+    width: 96%;
+  }
+}
+
