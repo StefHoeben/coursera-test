@@ -11,7 +11,7 @@ h1 {
 }
 
 .menu {
-  border: 2px solid black;
+  border: 1px solid black;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 15px;
@@ -25,8 +25,8 @@ h1 {
   float:right;
   clear: left;
   font-size:1.25em;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
 
 .menu_title1 {
